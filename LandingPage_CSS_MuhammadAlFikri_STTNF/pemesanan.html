@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpaceBay</title>
+        <link rel="shortcut icon" href="logo1.ico">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo"><a href="home.html"><img src="logo2.png" alt="logo"></a></div>
+
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="produk.html">Produk</a></li>
+                    <li class="active"><a href="pemesanan.html">Pemesanan</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                </ul>
+            </div>    
+        </header>
+        <main>
+            <form action="terima_kasih.html">
+                <fieldset>
+                    <legend><b>Data Pemesanan</b></legend>
+                        <div class="data">
+                            <label class="mps1"><b>Nama Penerima</b></label><br>   
+                            <input class="inp" type="text" name="nama" value="" size="25" placeholder="'Doni Saputra'" required>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Nomor Telepon</b></label><br>
+                            <input class="inp" type="number" name="nope" value="" placeholder="'012365484948'" required>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Email</b></label><br>
+                            <input class="inp" type="email" name="email" id="email" size="25" placeholder="'user@example.com'" required>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Alamat Lengkap</b></label><br>
+                            <textarea name="alamat_lengkap" cols="40" rows="5" placeholder="'Jl.Mangga No.3 Cimanggis, Depok'" required></textarea>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Model</b></label><br>
+                            <select name="pilhan_model" required>
+                                <option value="">--Pilih--</option>
+                                <option value="M-001">M-001 Rp.140.000,00</option>
+                                <option value="M-002">M-002 Rp.135.000,00</option>
+                                <option value="M-003">M-003 Rp.155.000,00</option>
+                                <option value="M-004">M-004 Rp.150.000,00</option>
+                                <option value="M-005">M-005 Rp.200.000,00</option>
+                            </select>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Ukuran</b></label><br>
+                            <input type="checkbox" name="uk" value="37">
+                            <label>37</label>    
+                            <input type="checkbox" name="uk" value="38">
+                            <label>38</label>
+                            <input type="checkbox" name="uk" value="39">
+                            <label>39</label>
+                            <input type="checkbox" name="uk" value="40">
+                            <label>40</label>
+                            <input type="checkbox" name="uk" value="41">
+                            <label>41</label><br>
+                            <input type="checkbox" name="uk" value="42">
+                            <label>42</label>
+                            <input type="checkbox" name="uk" value="43">
+                            <label>43</label>
+                            <input type="checkbox" name="uk" value="44">
+                            <label>44</label>
+                            <input type="checkbox" name="uk" value="45">
+                            <label>45</label>
+                            <input type="checkbox" name="uk" value="46">
+                            <label>46</label>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Banyaknya Pesanan</b></label><br>
+                            <input class="inp" type="number" name="banyak_pesanan" value="" placeholder="'2'" required>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Pengiriman</b></label><br>
+                            <select name="pengiriman" required>
+                                <option value="">--Pilih--</option>
+                                <option value="jne">JNE</option>
+                                <option value="sicepat">SiCepat Reg</option>
+                                <option value="jt">J&T</option>
+                                <option value="gosend">Go-Send</option>
+                                <option value="grab_exp">Grab Express</option>
+                            </select>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Tanggal Pemesanan</b></label><br>
+                            <input type="date" name="tanggal_pesan" required>
+                        </div>
+                        <div class="data">
+                            <label class="mps1"><b>Metode Pembayaran</b></label><br>
+                            <input type="radio" name="Mp" required> ATM
+                            <input type="radio" name="Mp" required> M-Banking
+                            <input type="radio" name="Mp" required> OVO
+                            <input type="radio" name="Mp" required> Gopay
+                        </div><br>   
+                    <button type="submit"> Selesai</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <div class="container">
+                <h4 class="foot_kiri">Copyright &copy; 2020 <i>Spacebay</i></h4>
+
+                <h4 class="foot_kanan">Kontak : 0895-6872-1345 | Email : spacebay@gmail.com</h4>
+            </div>
+        </footer>    
+    </body>
+</html>

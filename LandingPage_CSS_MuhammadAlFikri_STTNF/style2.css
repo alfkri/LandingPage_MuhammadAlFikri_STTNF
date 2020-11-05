@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 10);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+/* NAVBAR */
+header {
+    background-color: rgb(20, 19, 19);
+}
+
+.logo {
+    float: left;
+    padding:15px 0;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none ;
+    padding:25px 20px;
+    display:inline-block;
+    color: white;
+    font-size: 1.3em;
+}
+
+header ul li a:hover {
+    background-color: rgb(53, 141, 141);
+    text-transform: uppercase;
+}
+
+.active {
+    background-color: rgb(53, 141, 141);
+    text-transform: uppercase;
+}
+
+/* MAIN */
+/* Home */
+.mh1 {
+    margin: 20px 0 0 20px;
+}
+
+.mh2 {
+    text-align: center;
+    margin: 20px 375px;
+    font-style: italic;
+    background-color: rgb(80, 80, 231);
+}
+
+.g1 {
+    width: 30%;
+    border: 7px dashed black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mh3 {
+    margin: 20px 500px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.mh3 a {
+    text-decoration: none;
+}
+/* Produk */
+caption {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 400px 0 400px;
+}
+
+th {
+    width: 200px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.mp {
+    margin: 20px 600px;
+    font-size: 1.8em;
+    border: 2px dashed;
+    display: inline-block;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.mp a {
+    text-decoration: none;
+}
+
+.mp a:hover {
+    background-color:white;
+}
+
+.mp-g1 {
+    height: 170px;
+    width: 160px;
+}
+/* Pemesanan */
+form {
+    width: 100%;
+}
+
+.data {
+    padding: 8px 70px;
+}
+
+.inp {
+    line-height: 25px;
+}
+
+.mps1 {
+    font-size: 1.3em;
+    padding: 5px;
+}
+legend {
+    font-size: 2em;
+    margin: 0 30px;
+    padding: 25px;
+}
+
+button {
+    line-height: 40px;
+    width: 120px;
+    margin: 0 80px 15px 80px;
+    background-color: rgb(53, 141, 141);
+    font-weight: bolder;
+}
+
+/* Tentang */
+.mtli {
+    list-style: inside;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.mt1 {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.mt2 {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Terima Kasih */
+
+.mtks {
+    padding: 20px;
+    text-align: center;
+}
+
+.g2 {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* FOOTER */
+footer {
+    height:50px;
+    line-height:50px;
+    background:rgb(0, 0, 0);
+    color:#fff;
+}
+.foot_kiri {
+    float: left;
+}
+
+.foot_kanan {
+    float: right;
+}
+
+
